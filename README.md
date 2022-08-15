@@ -1,5 +1,5 @@
-# Aplicativo Web with Django
+# Web application template with Django.
 
-Página web criada sob orientação do livro: Tango_with_Django.
+livro: Tango_with_Django.
 
 
