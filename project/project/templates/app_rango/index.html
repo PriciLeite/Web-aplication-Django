@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="br">
+
+<head>
+
+    <title>Rango</title>
+
+</head>
+
+ <body>
+
+    <h1>Say, Hello Django!!!</h1>
+    
+    
+    <div>         
+
+        hey there partner! <br />
+        <strong>{{ boldmessage }}</strong><br />
+        <h1>Most liked categories </h1>        
+
+    </div> 
+
+    <div>
+    {% if categories %}
+        <ul>
+        {% for category in categories %}
+            <li>
+                <a href="/rango/category/{{ category.slug }}/">{{ category.name }}</a>
+            </li>
+        {% endfor %}    
+        </ul>
+    {% else %}
+        <strong>The are no categories present.</strong>
+      {% endif %}    
+    </div>          
+        
+    <div>
+        <a href="/rango/about/">About page</a><br />
+        <img src="{% static 'imagem/estudo.png' %}" 
+        alt="Ciclo de estudo."/>
+    </div>
+
+ </body>
+
+</html>
