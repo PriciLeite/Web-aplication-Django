@@ -1,13 +1,26 @@
 <!DOCTYPE html>
+{% load static %}
 <html lang="pt-br">
 
 <head>
-    
+
     <meta charset="UTF-8">
     <title>static files</title>
-
+    
 </head>
 <body>
+    <h1>Testando arquivos estaticos</h1>
+    <h2>Django</h2>
+    <div>
+
+        Olá, Seja bem vindo! <br />
+        <strong>{{boldmessage}}</strong><br />
+        <div>
+        <div>
+            <a href="/app_rango/about/">about</a><br />
+            <img src="{% static 'imagem/estudo.png' %}"
+             alt="Ciclo de estudos.">
+    <div>
     
 </body>
 </html>
