@@ -7,5 +7,5 @@ book: Tango_with_Django.
 -> if you want to start from scratch you must create a new project in your directory.
 * use: django-admin startproject projectname
 ° after creating the project use manage.py to create your applications.
-* use for app: python manage.py startapp nameapp
+* for app use: python manage.py startapp nameapp
 -> to start your server, use: python manage.py runserver. (should appear localhost - for Django it will be localhost:8000)
