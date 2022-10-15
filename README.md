@@ -1,7 +1,7 @@
 # Web application with Django. <br>
 #### DESCRIÇÃO: <br>
 Django é um framework de web server-side extremamente popular e repleto de características, escrito em Python. O módulo mostra por que o Django é um dos frameworks web mais populares, como configurar um ambiente de desenvolvimento e como começar a usa-lo para criar seus próprios aplicativos da Web. A explicação para construção do 
-aplicativo não explica detalhes sobre o script de preenchimento ao qual foi inserido no banco de dados. Mas, copialo e substitui-lo no projeto fazendo o passo-a-passo das configurações do sistema operacional e migrando os dados do script para o banco, permitira a visualização do aplicativo localmente em sua maquina. <br>
+aplicativo não inclui detalhes sobre a escrita do script de preenchimento ao qual foi inserido no banco de dados, visto que o script está diponivel para FORK. Mas, fazendo o passo-a-passo das configurações do sistema operacional e migrando os dados do script para seu banco criado com seu usuário da forma como explicado, permitirá a visualização do aplicativo localmente em sua maquina. <br>
 
 *** Página Inicial do Aplicativo ***
 
@@ -17,12 +17,19 @@ Para a criação do projeto e para execução será necessário:
 * pip install django.
 * pip install pillow. <br>    (obs: pip é um comando python, portanto é necessário instalar primeiramente python);  
 
-#### CRIANDO O PROJETO NO DIRETÓRIO: 
-###### OBS: VOCÊ DEVERÁ APONTAR PARA O SHELL O CAMINHO DO DIRETÓRIO AO QUAL DESEJA SALVAR O SEU PROJETO. <br> CASO ESTEJA UTILIZANDO VERSIONAMENTO GIT DEVERÁ CRIAR PRIMEIRO A PASTA E INSERIR O ENDEREÇO NO SHELL.
-![diretorio](https://user-images.githubusercontent.com/109990443/196004415-898a0db5-aecd-4ea7-b0e7-f30038ccf3bf.png)
+#### SE FOR CRIAR O PROJETO DO ZERO. CASO CONTRÁRIO FAZENDO FORK DO SCRIPT ACIMA NÃO SERÁ NECESSÁRIO CRIAR PASTAS PARA O PROJETO: 
+###### OBS: VOCÊ DEVERÁ APONTAR PARA O SHELL O CAMINHO DO DIRETÓRIO O QUAL SALVOU O SEU PROJETO. <br> CASO ESTEJA UTILIZANDO VERSIONAMENTO GIT DEVERÁ CRIAR PRIMEIRO A PASTA E INSERIR O ENDEREÇO NO SHELL.
+![diretorio](https://user-images.githubusercontent.com/109990443/196004415-898a0db5-aecd-4ea7-b0e7-f30038ccf3bf.png) <br>
 Em Shell:
-* django-admin startproject projectname - (Para criar o projeto)
-* Python manage.py startapp nameapp - (Para criar o aplicativo) <br>
+* django-admin startproject projectname - (Para criar o projeto do zero);
+* Python manage.py startapp nameapp - (Para criar o aplicativo do zero); <br>
+
+#### SUBSTITUA POR SEU DIRETÓRIO DA PASTA template; <br>
+![template](https://user-images.githubusercontent.com/109990443/196011456-2ccd9093-8b0e-4a69-8a12-984cd672e9db.png)
+
+#### SUBSTITUA POR SEU DIRETÓRIO DA PASTA static; <br>
+![static](https://user-images.githubusercontent.com/109990443/196011627-1e37aaf1-2a67-4ebe-a518-e7b630e09909.png)
+
 
 #### CRIANDO USUÁRIO PARA O PROJETO:
 ###### OBS: DJANGO POR PADRÃO JÁ VEM CONFIGURADO COM O BANCO DE DADOS SqlLite, ENTÃO DEVERÁ APENAS CRIAR UM USUÁRIO NO SHELL.
