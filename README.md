@@ -1,5 +1,4 @@
-# Web application with Django. <br>
-#### DESCRIÇÃO: <br>
+# Web Application Django. <br>
 Uma breve demonstração de como utilizar o framework Django para criar uma página static para Web.<br>
 
 ### Home 
